@@ -1,6 +1,6 @@
 """ TASK KEEPER """
 <p>
-  <img src="Sized.png">
+  <img src="screenshot.png">
 </p>
 
 Created to help users  keep track of their tasks by using Python with Flask for the backend and SQLAlchemy for the database.
