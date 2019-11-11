@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+    <div style="margin-left:300px; margin-top: 20px; margin-right: 300px ">
+        <form  action='/update/{{ task.id }}' method='POST'>
+            <div class="form-group">
+                    <label for="exampleFormControlTextarea1"><h4>Modify Task</h4></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" name='content' rows="3">{{ task.content }}</textarea>
+                  </div>
+            <input class="btn btn-success btn-sm" type="submit" value="Submit">
+
+        </form>
+        </div>
+{% endblock %}
